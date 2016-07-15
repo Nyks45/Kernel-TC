@@ -2,7 +2,7 @@
                                        android
                                 cross-compile toolchian
 
-RUN ./setup to setup the toolcahin for use
+RUN ./setup to setup the toolchain for use
 
 had to zip a few files cause github was throwing errors due to their size.
 
@@ -13,7 +13,7 @@ toolchain for x86_64 architecture for kernel compilation , compiled from GNU GCC
 
                                  export ARCH=x86_64
                             export CCOMPILE=$CROSS_COMPILE
-                         export CROSS_COMPILE=x86_64-linux-android-
+                         export CROSS_COMPILE=x86_64-linux-gnu-
                            and your toolchain path ....
                           
                                    Enjoy Compiling
