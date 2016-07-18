@@ -3,19 +3,19 @@ clear
 echo "NutChain Linaro 6.1 R07/16 SN"
 echo "Setting up toolchain for use"
 cd libexec/gcc/x86_64-linux-gnu/6.1.1
-rm -f liblto_plugin.so liblto_plugin.so.0
 echo "untar files"
+echo "******[You must have tar & cat installed to make this TC useable]******"
 tar -axvf exec.tar.xz
 echo "Removing Temp files"
 rm -f exec.tar.xz
 echo "all done"
 echo " "
 echo " "
-echo "use this export commands now"
+echo "use these export commands now"
 echo " "
 echo "export ARCH=x86_64"
 echo "export CCOMPILE=$CROSS_COMPILE"
-echo "export CROSS_COMPILE=x86_64-linux-android-"
+echo "export CROSS_COMPILE=x86_64-linux-gnu-"
 echo " "
 echo " "
 echo "Happy compiling :) "
