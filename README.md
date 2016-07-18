@@ -8,7 +8,7 @@ The execlib DIR of this TC has been compressed with tar with xz filter due to up
 
 TC for x86_64 architecture for kernel compilation , compiled from Linaro GCC 6.1.0 source with graphite and link time optimizations(lto).
 
-This TC has embedded Newlib C library support with plugin & lto optimiztions along with custom CLoog & PPL support.
+This TC has embedded Newlib C library support with plugin & lto optimiztions along with custom CLoog, PPL & GDB code support.
 
 
                             setup export commands in .bashrc
