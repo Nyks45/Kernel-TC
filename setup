@@ -1,13 +1,14 @@
 #!/bin/bash
 clear
+pwd
 echo "NutChain Linaro 6.1 R07/16 SN"
 echo "Setting up toolchain for use"
-cd libexec/gcc/x86_64-linux-gnu/6.1.1
+cd ./libexec/gcc/x86_64-linux-gnu/6.1.1
 echo "untar files"
 echo "******[You must have tar & cat installed to make this TC useable]******"
-tar -axvf exec.tar.xz
+tar -axvf ./exec.tar.xz
 echo "Removing Temp files"
-rm -f exec.tar.xz
+rm -f ./exec.tar.xz
 echo "all done"
 echo " "
 echo " "
