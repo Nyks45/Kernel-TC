@@ -1,12 +1,14 @@
 #!/bin/bash
 clear
-echo "NutChain Linaro 6.1 R07/16 SN"
+echo "NutChain Linaro 5.4 R06/16 SN"
 echo "Setting up toolchain for use"
 rm -rf .git
-cd libexec/gcc/x86_64-linux-gnu/6.1.1
-echo "untar files"
+cd libexec/gcc/x86_64-linux-gnu/5.4.1
 echo "******[You must have tar & cat installed to make this TC useable]******"
-tar -axvf exec.tar.xz
+echo "Rebuilding tarfile"
+cat execlib* > execlib.tar.xz
+echo "Untaring Files"
+tar -axvf execlib.tar.xz
 echo "Removing Temp files"
 rm -f exec.tar.xz
 echo "all done"
@@ -16,7 +18,7 @@ echo "use these export commands now"
 echo " "
 echo "export ARCH=x86_64"
 echo "export CCOMPILE=$CROSS_COMPILE"
-echo "export CROSS_COMPILE=x86_64-linux-gnu-"
+echo "export CROSS_COMPILE=x86_64-linux-"
 echo " "
 echo " "
 echo "Happy compiling :) "
