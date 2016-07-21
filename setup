@@ -10,7 +10,7 @@ cat execlib* > execlib.tar.xz
 echo "Untaring Files"
 tar -axvf execlib.tar.xz
 echo "Removing Temp files"
-rm -f exec.tar.xz
+rm -f exec*
 echo "all done"
 echo " "
 echo " "
