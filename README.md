@@ -1,4 +1,4 @@
-                                   X86_64-GCC-Linaro-6.1.0 
+                                   X86_64-GCC-Linaro-5.4.0 
                                        android
                                 cross-compile toolchian
 
