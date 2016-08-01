@@ -5,10 +5,10 @@
 # It is necessary for linking the library.
 
 # The name that we can dlopen(3).
-dlname='libgomp.so.1'
+dlname=''
 
 # Names of this library.
-library_names='libgomp.so.1.0.0 libgomp.so.1 libgomp.so'
+library_names=''
 
 # The name of the static archive.
 old_library='libgomp.a'

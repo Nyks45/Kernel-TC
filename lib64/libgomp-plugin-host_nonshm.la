@@ -5,13 +5,13 @@
 # It is necessary for linking the library.
 
 # The name that we can dlopen(3).
-dlname='libgomp-plugin-host_nonshm.so.1'
+dlname=''
 
 # Names of this library.
-library_names='libgomp-plugin-host_nonshm.so.1.0.0 libgomp-plugin-host_nonshm.so.1 libgomp-plugin-host_nonshm.so'
+library_names=''
 
 # The name of the static archive.
-old_library=''
+old_library='libgomp-plugin-host_nonshm.a'
 
 # Linker flags that can not go in dependency_libs.
 inherited_linker_flags=''
