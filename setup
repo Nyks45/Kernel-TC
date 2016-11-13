@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-echo "NutChain Linaro 5.4 R06/16 SN"
+echo "NutChain SaberMod 5.4 R08/16 SN"
 echo "Setting up toolchain for use"
 rm -rf .git
 cd libexec/gcc/x86_64-linux-gnu/5.4.1
